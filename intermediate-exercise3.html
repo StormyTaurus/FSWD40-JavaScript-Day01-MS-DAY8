@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+</head>
+<body>
+
+	<!--var f = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+	$(/).replaceWith("+");
+	document.write(f);-->
+
+
+
+	<p>Click the button to replace "/" with "+" in the paragraph below:</p>
+
+	<p id="demo">mango/cherries/kiwi/grapes/pear/peach/orange/lemon</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("/", "+");
+    document.getElementById("demo").innerHTML = res;
+}
+	</script>
+	
+</body>
+</html>
